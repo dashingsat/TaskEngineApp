@@ -1,0 +1,36 @@
+
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    /* 3:, 4: */
+    -fx-background-color: linear-gradient(#333 0%, #777 25%, #aaa 75%, #eee 100%);
+    -fx-text-fill: white; /* 5 */
+}
+.list-cell { -fx-text-fill: black; /* 5 */ }
+.list-cell {
+    -fx-background-color: linear-gradient(#560202 0%,#560202 0%,#561a05 100%,#561a05 100%) /* 1 */
+             ;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: black; /* 2 */
+    -fx-text-fill: white; /* 5 */
+}
+
+.list-view{
+    -fx-background-color: teal;
+}
+
+.button{
+    -fx-background-color: linear-gradient(teal 0%,teal 0%,white 100%,white 100%);
+    -fx-background-radius: 30;
+}
+
+.button12{
+    -fx-background-color: linear-gradient(teal 0%,teal 0%,white 100%,white 100%);
+    -fx-background-radius: 30;
+}
+
+#taskDetailPane{
+    -fx-background-color: linear-gradient(#560202 0%,#560202 0%,wheat 60%,wheat 60%,#560202 100%,#560202 100%) /* 1 */
+}
+
