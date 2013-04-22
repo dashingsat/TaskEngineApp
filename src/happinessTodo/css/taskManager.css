@@ -25,10 +25,7 @@
     -fx-background-radius: 30;
 }
 
-.button12{
-    -fx-background-color: linear-gradient(teal 0%,teal 0%,white 100%,white 100%);
-    -fx-background-radius: 30;
-}
+
 
 #taskDetailPane{
     -fx-background-color: linear-gradient(#560202 0%,#560202 0%,wheat 60%,wheat 60%,#560202 100%,#560202 100%) /* 1 */
