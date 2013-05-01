@@ -86,7 +86,7 @@
                         <TableColumn editable="false" prefWidth="300.0" resizable="false" text="Tasks" fx:id="taskDetailColumn" />
                         <TableColumn editable="false" prefWidth="75.0" text="Priority" fx:id="priority" />
                         <TableColumn editable="false" prefWidth="75.0" text="Delete tasks" fx:id="deleteRow" />
-                        <TableColumn prefWidth="75.0" text="Edit" fx:id="editColumn" />
+                        <TableColumn prefWidth="75.0" text="Status" fx:id="status" />
                       </columns>
                     </TableView>
                     <HBox id="HBox" alignment="CENTER" layoutY="37.0" spacing="40.0" AnchorPane.rightAnchor="250.0">

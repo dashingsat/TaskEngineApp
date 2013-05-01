@@ -55,8 +55,8 @@ public class Fire
     @FXML //  fx:id="deleteRow"
     private TableColumn<?, ?> deleteRow; // Value injected by FXMLLoader
 
-    @FXML //  fx:id="editColumn"
-    private TableColumn<?, ?> editColumn; // Value injected by FXMLLoader
+    @FXML //  fx:id="status"
+    private TableColumn<?, ?> status; // Value injected by FXMLLoader
 
     @FXML //  fx:id="enterTask"
     private TextArea enterTask; // Value injected by FXMLLoader
@@ -331,7 +331,7 @@ public class Fire
         assert addTaskBox != null : "fx:id=\"addTaskBox\" was not injected: check your FXML file 'happinessTodo.fxml'.";
         assert cancelStack != null : "fx:id=\"cancelStack\" was not injected: check your FXML file 'happinessTodo.fxml'.";
         assert deleteRow != null : "fx:id=\"deleteRow\" was not injected: check your FXML file 'happinessTodo.fxml'.";
-        assert editColumn != null : "fx:id=\"editColumn\" was not injected: check your FXML file 'happinessTodo.fxml'.";
+        assert status != null : "fx:id=\"editColumn\" was not injected: check your FXML file 'happinessTodo.fxml'.";
         assert enterTask != null : "fx:id=\"enterTask\" was not injected: check your FXML file 'happinessTodo.fxml'.";
         assert header != null : "fx:id=\"header\" was not injected: check your FXML file 'happinessTodo.fxml'.";
         assert priority != null : "fx:id=\"priority\" was not injected: check your FXML file 'happinessTodo.fxml'.";
